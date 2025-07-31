@@ -56,8 +56,9 @@ function Home() {
                                 overflowWrap: 'break-word',
                             }}
                         >
-                            I am currently a Year 3 Computer Science student at NUS. I am passionate
-                            about software engineering and cybersecurity.
+                            I am currently a Year 4 Computer Science student at NUS. I am passionate
+                            about software engineering, specifically backend development and
+                            distributed systems.
                         </p>
                     </div>
                     <div className="flex-shrink-0">

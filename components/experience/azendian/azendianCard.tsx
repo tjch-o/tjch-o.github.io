@@ -13,7 +13,7 @@ const AzendianCard = () => {
     return (
         <Card
             company={'Azendian Solutions'}
-            role="Full-stack Developer Intern"
+            role="Full Stack Developer Intern"
             startDate="13 May 2024"
             endDate="2 August 2024"
             techUsed={techStack}

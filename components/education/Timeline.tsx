@@ -115,7 +115,12 @@ const Timeline = () => {
             colorClass: 'border-purple-500',
             imageSrc:
                 'https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/NUS_coat_of_arms.svg/1200px-NUS_coat_of_arms.svg.png',
-            content: <p>Currently a Year 3 Computer Science undergraduate.</p>,
+            content: (
+                <p>
+                    Currently a Year 4 Computer Science undergraduate specialising in Software
+                    Engineering.
+                </p>
+            ),
         },
         {
             id: 'nyjc',

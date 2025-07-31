@@ -21,6 +21,7 @@ const techStacks: TechStack[] = [
         stacks: [
             'Nodejs',
             'Expressjs',
+            'Spring Boot',
             'FastAPI',
             'PostgreSQL',
             'MongoDB',
@@ -28,6 +29,7 @@ const techStacks: TechStack[] = [
             'Docker',
             'RabbitMQ',
             'Redis',
+            'Kafka',
         ],
     },
     {

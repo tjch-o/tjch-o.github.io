@@ -13,10 +13,6 @@ const techStacks: TechStack[] = [
         stacks: ['Python', 'Java', 'JavaScript', 'TypeScript', 'C'],
     },
     {
-        label: 'Frontend',
-        stacks: ['HTML', 'CSS', 'Reactjs', 'TailwindCSS', 'Nextjs', 'Vuejs'],
-    },
-    {
         label: 'Backend',
         stacks: [
             'Nodejs',
@@ -31,6 +27,10 @@ const techStacks: TechStack[] = [
             'Redis',
             'Kafka',
         ],
+    },
+    {
+        label: 'Frontend',
+        stacks: ['HTML', 'CSS', 'Reactjs', 'TailwindCSS', 'Nextjs', 'Vuejs'],
     },
     {
         label: 'Machine Learning',

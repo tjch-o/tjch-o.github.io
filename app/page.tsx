@@ -35,7 +35,7 @@ function Home() {
     return (
         <div className="min-h-screen overflow-auto bg-tokyo-night pt-16">
             <NavBar />
-            
+
             {/* Hero Section */}
             <div className="flex justify-center px-4 sm:px-8 py-12 lg:py-20 bg-tokyo-night">
                 <div className="flex flex-col lg:flex-row items-center lg:space-x-16 max-w-7xl w-full gap-8">
@@ -58,8 +58,14 @@ function Home() {
                         <p className="text-lg md:text-xl lg:text-2xl text-gray-300 leading-relaxed max-w-2xl">
                             I am currently a Year 4 Computer Science student at NUS. I am passionate
                             about software engineering, specifically{' '}
-                            <span className="text-tokyo-night-light font-semibold">backend development</span> and{' '}
-                            <span className="text-tokyo-night-light font-semibold">distributed systems</span>.
+                            <span className="text-tokyo-night-light font-semibold">
+                                backend development
+                            </span>{' '}
+                            and{' '}
+                            <span className="text-tokyo-night-light font-semibold">
+                                distributed systems
+                            </span>
+                            .
                         </p>
                     </div>
 
@@ -82,7 +88,7 @@ function Home() {
             <div className="py-12 bg-gradient-to-b from-tokyo-night to-gray-900">
                 <div className="text-center mb-8 px-4">
                     <h2 className="text-3xl md:text-4xl font-bold text-white mb-3">
-                        Tech Stack
+                        Technical Proficiencies
                     </h2>
                 </div>
                 <DotCarousel />

@@ -6,7 +6,7 @@ const IdemiaCard = () => {
     const desc = [
         'Developed event-driven microservices for travel data aggregation system in Spring Boot, Kafka and RabbitMQ',
         'Refactored JPQL queries to improve compatibility and maintainability during microservice migration to Spring Boot 3',
-        'Improved test coverage and reliability by creating JUnit test cases and JMeter scripts'
+        'Improved test coverage and reliability by creating JUnit test cases and JMeter scripts',
     ];
     return (
         <Card

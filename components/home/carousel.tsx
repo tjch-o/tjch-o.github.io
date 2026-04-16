@@ -44,9 +44,8 @@ const DotCarousel = () => {
     const carouselRef = useRef<HTMLDivElement>(null);
 
     const activeTechs = techStacks[activeIndex].stacks;
-    const activeLabel = techStacks[activeIndex].label;
 
-    const handleDotClick = (index: number) => {
+    const handleTabClick = (index: number) => {
         setActiveIndex(index);
         setScrollPosition(0);
     };
@@ -137,20 +136,21 @@ const DotCarousel = () => {
                     </div>
                 </div>
 
-                <div className="flex justify-center mt-4">
-                    {techStacks.map((_, index) => (
+                {/* Segmented tab nav */}
+                <div className="flex gap-1 bg-white bg-opacity-20 backdrop-blur-sm p-1 rounded-xl mt-4">
+                    {techStacks.map((stack, index) => (
                         <button
                             key={index}
-                            onClick={() => handleDotClick(index)}
-                            className={`w-4 h-4 mx-1 rounded-full ${
-                                activeIndex === index ? 'bg-blue-500' : 'bg-gray-400'
+                            onClick={() => handleTabClick(index)}
+                            className={`flex-1 text-xs font-medium py-2 px-1 rounded-lg transition-all duration-200 ${
+                                activeIndex === index
+                                    ? 'bg-white text-gray-800 shadow'
+                                    : 'text-white hover:bg-white hover:bg-opacity-10'
                             }`}
-                        />
+                        >
+                            {stack.label}
+                        </button>
                     ))}
-                </div>
-
-                <div className="flex justify-center my-4">
-                    <p className="text-xl text-white">{activeLabel}</p>
                 </div>
             </div>
         </div>

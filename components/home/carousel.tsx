@@ -142,7 +142,7 @@ const DotCarousel = () => {
                         <button
                             key={index}
                             onClick={() => handleTabClick(index)}
-                            className={`flex-1 text-xs font-medium py-2 px-1 rounded-lg transition-all duration-200 ${
+                            className={`flex-1 text-xs font-medium font-poppins py-2 px-1 rounded-lg transition-all duration-200 ${
                                 activeIndex === index
                                     ? 'bg-white text-gray-800 shadow'
                                     : 'text-white hover:bg-white hover:bg-opacity-10'

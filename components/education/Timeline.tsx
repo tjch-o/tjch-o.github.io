@@ -88,7 +88,7 @@ const TimelineItem = ({
                     <div
                         className={`overflow-hidden transition-all duration-300 ${isExpanded ? 'max-h-96' : 'max-h-[1.5rem] line-clamp-1'}`}
                     >
-                        <div className="text-gray-600 font-inter">{children}</div>
+                        <div className="text-gray-600 font-poppins">{children}</div>
                     </div>
                 </div>
                 <div className="text-sm font-medium text-gray-500">{date}</div>

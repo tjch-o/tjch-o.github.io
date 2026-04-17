@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import { Inter, Fira_Sans } from 'next/font/google';
+import { Inter, Fira_Sans, Poppins } from 'next/font/google';
 import type { Metadata } from 'next';
 
 // These styles apply to every route in the application
@@ -13,10 +13,16 @@ const inter = Inter({
 });
 
 const firaSans = Fira_Sans({
-    weight: ['400', '500', '700'], // Choose the weights you need
+    weight: ['400', '500', '700'],
     subsets: ['latin'],
     display: 'swap',
     variable: '--font-fira-sans',
+});
+
+const poppins = Poppins({
+    subsets: ['latin'],
+    variable: '--font-poppins',
+    weight: ['400', '500', '600', '700'],
 });
 
 export const metadata: Metadata = {
@@ -26,7 +32,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
-        <html lang="en" className={`${inter.variable} ${firaSans.variable}`}>
+        <html lang="en" className={`${inter.variable} ${firaSans.variable} ${poppins.variable}`}>
             <Head>
                 <meta charSet="utf-8" />
                 <link rel="icon" href="/favicon.ico" />

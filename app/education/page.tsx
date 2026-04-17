@@ -2,7 +2,6 @@
 import Timeline from '@/components/education/Timeline';
 import NavBar from '@/components/nav/NavBar';
 import React from 'react';
-import './education.css';
 
 function Education() {
     return (

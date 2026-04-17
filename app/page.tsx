@@ -87,7 +87,7 @@ function Home() {
 
             <div className="py-12 bg-gradient-to-b from-tokyo-night to-gray-900">
                 <div className="text-center mb-8 px-4">
-                    <h2 className="text-3xl md:text-4xl font-bold text-white mb-3">
+                    <h2 className="text-3xl md:text-4xl font-poppins font-bold text-white mb-3">
                         Technical Proficiencies
                     </h2>
                 </div>

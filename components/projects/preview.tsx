@@ -33,7 +33,7 @@ const Preview = ({
                     </div>
                 </div>
                 <div className="space-y-4">
-                    <p className="text-tokyo-night font-inter">{description}</p>
+                    <p className="text-tokyo-night font-poppins">{description}</p>
                     <TechUsedCard techUsed={techUsed} cardWidth={cardWidth ?? 250} />
                 </div>
             </div>

@@ -35,7 +35,7 @@ const ExperienceCard = ({
                 </div>
                 <h1 className="text-xl font-bold m-0">{company}</h1>
                 <div className="flex flex-row justify-start items-center space-x-6">
-                    <h3 className="text-lg m-0 font-inter">{role}</h3>
+                    <h3 className="text-lg m-0 font-poppins">{role}</h3>
                     <div className="flex flex-row items-center space-x-4 ml-4">
                         <DateDisplay start={startDate} end={endDate} />
                     </div>

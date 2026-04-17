@@ -36,7 +36,9 @@ const TechCard = ({ name }: TechCardProps) => {
                 </div>
 
                 <div className="mt-3 text-center">
-                    <p className="text-sm font-inter font-medium text-gray-700 truncate">{name}</p>
+                    <p className="text-sm font-poppins font-medium text-gray-700 truncate">
+                        {name}
+                    </p>
                 </div>
             </div>
 

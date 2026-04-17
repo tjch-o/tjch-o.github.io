@@ -32,6 +32,7 @@ const config: Config = {
             fontFamily: {
                 inter: ['var(--font-inter)', 'sans-serif'],
                 'fira-sans': ['var(--font-fira-sans)', 'sans-serif'],
+                poppins: ['var(--font-poppins)', 'sans-serif'],
             },
         },
     },

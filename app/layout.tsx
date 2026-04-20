@@ -1,9 +1,6 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import { Inter, Fira_Sans, Poppins } from 'next/font/google';
 import type { Metadata } from 'next';
-
-// These styles apply to every route in the application
 import './globals.css';
 
 const inter = Inter({

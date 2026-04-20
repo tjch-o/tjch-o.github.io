@@ -71,15 +71,20 @@ function Home() {
 
                     <div className="flex-shrink-0 animate-fade-in-up">
                         <div className="relative group">
-                            <div className="absolute -inset-1 bg-gradient-to-r from-tokyo-night-light to-blue-400 rounded-lg blur opacity-25 group-hover:opacity-50 transition duration-300"></div>
-                            <Image
-                                src="/tjch-o.jpg"
-                                alt="Tze Jie"
-                                width={400}
-                                height={400}
-                                className="relative rounded-lg shadow-2xl transform group-hover:scale-105 transition duration-300"
-                                priority
-                            />
+                            {/* layered shadow effect to create the stack */}
+                            <div className="absolute inset-0 translate-x-3 translate-y-3 rounded-lg bg-tokyo-night-light/20" />
+                            <div className="absolute inset-0 translate-x-1.5 translate-y-1.5 rounded-lg bg-tokyo-night-light/40" />
+
+                            <div className="relative">
+                                <Image
+                                    src="/tjch-o.jpg"
+                                    alt="Tze Jie"
+                                    width={400}
+                                    height={400}
+                                    className="rounded-lg shadow-2xl object-cover"
+                                    priority
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>
